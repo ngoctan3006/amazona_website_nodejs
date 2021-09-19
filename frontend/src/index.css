@@ -114,7 +114,17 @@ img.medium {
 }
 
 /* Rating */
+.rating {
+  display: flex;
+}
+
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+
+.rating span:last-child {
+  color: #404040;
+  display: inline-block;
+  margin-left: auto;
 }
